@@ -1,12 +1,12 @@
 algoritmo "01.MegaSena"
-// Disciplina   : Programação e Algoritmos
+// Disciplina   : ProgramaÃ§Ã£o e Algoritmos
 // Professor   : Cristiane
-// Função : Digitar 6 números e sortear
+// FunÃ§Ã£o : Digitar 6 nÃºmeros e sortear
 // Autor : Bruno Neemias Alves Mota RM: 166739
 // Data : 19/11/2020
 
 var
-   // Declaração das variaveis
+   // DeclaraÃ§Ã£o das variaveis
    c1,i: inteiro
    jogo : vetor[1..6] de inteiro
 inicio
@@ -18,7 +18,7 @@ inicio
 
    para i de 1 ate 6 faca
 
-      Escreva("Digite o ",c1," ° número do seu jogo [1-60]: ")
+      Escreva("Digite o ",c1," Â° nÃºmero do seu jogo [1-60]: ")
 
       repita
 
@@ -27,7 +27,7 @@ inicio
          se (c1 > 1) entao
             para i de 1 ate c1 faca
                se (jogo[i] = jogo[i+1]) entao
-                  Escreval("O número digitado já foi escolhido, por favor digite outro número!")
+                  Escreval("O nÃºmero digitado jÃ¡ foi escolhido, por favor digite outro nÃºmero!")
 
 
                   c1 := c1 + 1
