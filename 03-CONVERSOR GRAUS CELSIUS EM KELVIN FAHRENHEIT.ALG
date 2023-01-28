@@ -1,16 +1,16 @@
 Algoritmo "08. CONVERSOR GRAUS CELSIUS EM KELVIN FAHRENHEIT"
-// Disciplina  : Programação e Algoritmos
+// Disciplina  : ProgramaÃ§Ã£o e Algoritmos
 // Professor   : Cristiane Fernandes
-// Descrição   : Converter °C em kelvin e fahrenheit
+// DescriÃ§Ã£o   : Converter Â°C em kelvin e fahrenheit
 // Autor(a)    : Bruno Neemias Alves Mota RM: 166739
 // Data atual  : 27/8/2020
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 Var
    type, rpt: inteiro
    celsius, kelvin, fahrenheit: real
    
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 rpt:=1
 enquanto (rpt=1) faca
   Escreval("=========== CONVERSOR DE TEMPERATURA ===============")
@@ -19,7 +19,7 @@ enquanto (rpt=1) faca
   Escreval("[2] Celsius")
   Escreval("[3] Fahrenheit")
   Escreval("[4] Sair ")
-  Escreva("Digite o número corresponde a operação: ")
+  Escreva("Digite o nÃºmero corresponde a operaÃ§Ã£o: ")
   Leia(type)
   
   se (type > 4) ou (type < 1) entao
@@ -37,7 +37,7 @@ enquanto (rpt=1) faca
          celsius:= (kelvin - 273.15)
          fahrenheit:=  (kelvin - 273.15) * 9 / 5 + 32
          
-         Escreval(kelvin," Graus kelvin é equivalente à: ")
+         Escreval(kelvin," Graus kelvin Ã© equivalente Ã : ")
          Escreval(celsius:6:2, " Graus Celsius")
          Escreval(fahrenheit:6:2," Graus fahrenheit")
        senao
@@ -52,7 +52,7 @@ enquanto (rpt=1) faca
         kelvin:= ( celsius + 273.15)
         fahrenheit:= (celsius * 9/5)+ 32
 
-         Escreval(celsius," Graus Celsius é equivalente à: ")
+         Escreval(celsius," Graus Celsius Ã© equivalente Ã : ")
          Escreval(kelvin:6:2, " Graus Kelvin")
          Escreval(fahrenheit:6:2," Graus fahrenheit")
        senao
@@ -66,7 +66,7 @@ enquanto (rpt=1) faca
          celsius:= (fahrenheit - 32)  * (5/9)
          kelvin:=  (fahrenheit - 32) * 5/9 + 273.15
 
-         Escreval(fahrenheit," Graus fahrenheit é equivalente à: ")
+         Escreval(fahrenheit," Graus fahrenheit Ã© equivalente Ã : ")
          Escreval(celsius:6:2, " Graus Celsius")
          Escreval(kelvin:6:2," Graus kelvin")
        senao
@@ -80,9 +80,9 @@ enquanto (rpt=1) faca
   fimse
   fimse
   Escreval("==============================")
-  Escreval("Deseja fazer outra operação?")
+  Escreval("Deseja fazer outra operaÃ§Ã£o?")
   Escreval("[1] SIM")
-  Escreval("[2] NÃO")
+  Escreval("[2] NÃƒO")
   leia(rpt)
   limpatela
 fimenquanto
