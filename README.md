@@ -1,2 +1,2 @@
 # Algoritmos
-Programas realizados no curso de Desenvolvimento de Sistemas pela ETEVAV
+Programas realizado  pelo visualg durante o processo de aprendizagem de lógica de programação. 
