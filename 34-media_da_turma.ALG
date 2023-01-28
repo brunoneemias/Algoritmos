@@ -1,12 +1,12 @@
 algoritmo "05.tudo"
-// Disciplina   : Programação e Algoritmos
+// Disciplina   : ProgramaÃ§Ã£o e Algoritmos
 // Professor   : Cristiane
-// Função : Mostrar media da turma, pior e menor nota
+// FunÃ§Ã£o : Mostrar media da turma, pior e menor nota
 // Autor : Bruno Neemias Alves Mota RM: 166739
 // Data : 29/10/2020
 
 var
-   // Declaração das variaveis
+   // DeclaraÃ§Ã£o das variaveis
    dobro, numero, soma, media, maior, menor, cubo, porcentagem : real
    psc,qtd, impar:inteiro
    resp: caractere
@@ -21,12 +21,12 @@ inicio
    enquanto (resp = "S") faca
       LIMPATELA
       Escreval("========================================")
-      Escreval("            E X E R C Í C I O 5         ")
+      Escreval("            E X E R C Ã C I O 5         ")
       Escreval("========================================")
       Escreval("Digite [0] para encerrar o programa!")
       Escreval("----------------------------------------")
 
-      Escreva("Digite o ",psc,"º número: ")
+      Escreva("Digite o ",psc,"Âº nÃºmero: ")
       leia(numero)
 
       se (numero = 0) entao
@@ -65,18 +65,18 @@ porcentagem := (impar * 100)/qtd
 
 
 Escreval("----------------------------------")
-Escreva("Digitar mais números ?  [S/N] ")
+Escreva("Digitar mais nÃºmeros ?  [S/N] ")
 leia(resp)
 fimenquanto
 
 limpatela
 Escreval("----------> R E S P O S T A !!! <------------")
-Escreval("A soma dos números digitados foi: ", soma:6:2)
-Escreval("A média dos números foi: ", media:6:2)
-Escreval("O maior número foi : |",maior:6:2," | e o menor foi: |",menor:6:2," |")
-Escreval("O dobro dos números digitados foi: ", dobro:6:2)
-Escreval("O cubo dos números digitados foi: ", cubo:6:2)
-Escreval("A porcetagem dos números ímpares é: ",porcentagem:6:2,"%")
+Escreval("A soma dos nÃºmeros digitados foi: ", soma:6:2)
+Escreval("A mÃ©dia dos nÃºmeros foi: ", media:6:2)
+Escreval("O maior nÃºmero foi : |",maior:6:2," | e o menor foi: |",menor:6:2," |")
+Escreval("O dobro dos nÃºmeros digitados foi: ", dobro:6:2)
+Escreval("O cubo dos nÃºmeros digitados foi: ", cubo:6:2)
+Escreval("A porcetagem dos nÃºmeros Ã­mpares Ã©: ",porcentagem:6:2,"%")
 
 
 
